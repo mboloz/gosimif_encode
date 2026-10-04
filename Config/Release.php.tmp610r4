@@ -1,0 +1,13 @@
+<?php
+
+namespace Config;
+
+final class Release
+{
+    public const PROJECT = 'gosimif';
+    public const APP_VERSION = 631;
+    public const PATCH_NUMBER = 610;
+    public const EXPECTED_DB_VERSION = 305;
+    public const DB_PATCH_REQUIRED = true;
+    public const TITLE = 'Farmasi Rekap Saldo Persediaan JSON Revision 4';
+}
